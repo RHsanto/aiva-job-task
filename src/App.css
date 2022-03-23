@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+/* darg section */
+.c-img{
+  height: 250px;
+  object-fit: cover;
+}
+
+.title {
+  width: 100%;
+ text-align: center;
+}
+.title:after {
+  content: '';
+  width: 4%;
+  height: 1px;
+  background-color: #4338ca;
+  display: inline-block;
+  transform: translateY(-7px);
+  margin: 0 10px;
+}
+.title:before {
+  content: '';
+  width: 4%;
+  height: 1px;
+  background-color: #4338ca;
+  display: inline-block;
+  transform: translateY(-7px);
+  margin: 0 10px;
+}
+
+.spinners{
+  background-color: #E2E8F0;
+}
+#context-menu{
+ position: fixed;
+ z-index: 10000;
+ width: 150px;
+ background-color: #3553e9;
+ transform: scale(0);
+ transform-origin: top left;
+ cursor: pointer;
+}
+
+#context-menu.active{
+  transform: scale(1);
+  transition: transform 200ms ease-in-out;
+}
+#context-menu .item{
+ padding: 8px 10px ;
+ font-size: 15px ;
+ color: #eee;
+  
+}
+#context-menu .item:hover{
+  background-color: #555;
+}
+
+#context-menu .item i{
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* task 3 */
