@@ -7,12 +7,11 @@ import Spinning from './Spinning/Spinning';
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+   {/* here all components */}
       <DargNDrop/>
-      <ColorPiker/>
-    
       <Spinning/>
       <DetailsCard/>
+      <ColorPiker/>
     </div>
   );
 };

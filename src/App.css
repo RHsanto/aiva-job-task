@@ -42,7 +42,7 @@
   height: 250px;
   object-fit: cover;
 }
-
+/* all title css */
 .title {
   width: 100%;
  text-align: center;
@@ -69,6 +69,8 @@
 .spinners{
   background-color: #E2E8F0;
 }
+
+/* here right click section css */
 #context-menu{
  position: fixed;
  z-index: 10000;
@@ -98,4 +100,22 @@
   margin-right: 5px;
 }
 
-/* task 3 */
+.click{
+  margin-bottom: 200px;
+}
+/* color picker section */
+.color{
+  margin-left: 200px !important;
+}
+.color-section{
+  background-color: #E2E8F0;
+}
+/* navbar */
+
+.navbar{
+  background-color: #4338ca;
+  color: white !important;
+}
+.nav-link, .navbar-brand{
+  color: white !important;
+}

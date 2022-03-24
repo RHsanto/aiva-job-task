@@ -3,6 +3,7 @@ import WheelComponent from 'react-wheel-of-prizes';
 
 
 const Spinning = () => {
+  // here use all spinning data
   const segments = [
     'better luck next time',
     'won $1000',
@@ -13,6 +14,7 @@ const Spinning = () => {
     'better luck next time',
     'won a voucher'
   ]
+  //here set colors
   const segColors = [
     '#198754',
     '#F44336',
@@ -23,6 +25,7 @@ const Spinning = () => {
     '#E91E63',
     '#4CAF50'
   ]
+  //here spinning  result
   const onFinished = (winner) => {
   console.log(winner);
   }
@@ -32,6 +35,7 @@ const Spinning = () => {
       <div className="container">
         <div className="row">
           <div className="col-6 mx-auto">
+            {/* here spinning circle card */}
           <WheelComponent
       segments={segments}
       segColors={segColors}
